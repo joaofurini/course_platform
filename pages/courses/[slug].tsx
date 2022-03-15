@@ -22,10 +22,10 @@ export default function Courses({ctx}) {
     const parsedSlug = slug as string
 
     
-    if(!acceptedRoutes.includes(parsedSlug)){
+    // if(!acceptedRoutes.includes(parsedSlug)){
 
-      router.push('/home')
-    }
+    //   router.push('/home')
+    // }
 
   
 
